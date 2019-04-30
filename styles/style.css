@@ -1,0 +1,367 @@
+@font-face {
+  font-family: circular;
+  src: url(../fonts/circular.otf);
+}
+
+body {
+	margin: 0;
+	background-color: white;
+	/*background-image: url(../images/Home-Screen.png);*/
+	background-size: 100% 100%;
+	background-position: center;
+	font-size: 20px;
+	overflow-x: hidden;
+}
+
+
+/* ------------------------- Nav bar ----------------------------- */
+
+.n {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 10rem;
+	top: 0;
+	opacity: 1;
+	z-index: 100;
+	background-color: white;
+}
+
+.logo-mid {
+	display: block;
+	position: absolute;
+	width: 40%;
+	height: inherit;
+	margin-left: 30%;
+	pointer-events: none;
+}
+
+.logo {
+	position: absolute;
+	display: block;
+	width: 165%;
+	height: 18rem;
+	margin-left: -32%;
+	text-align: center;
+}
+
+
+.l {
+	display: inline-block;
+	width: 50rem;
+	height: 12rem;
+	margin-top: 3.6rem;
+	border-radius: 1.5rem;
+	border-style: dashed;
+	border-width: 1.5px;
+	border-color: red;
+	text-align: center;
+	transition: ease all 0.4s;
+}
+
+.title {
+	display: inline-block;
+	width: 14rem;
+	height: 15rem;
+	margin-top: -1.5rem;
+	transition: ease all 0.4s;
+}
+
+.t {
+	display: block;
+	width: inherit;
+	height: 3rem;
+	background-color: white;
+	background-size: 95% 95%;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: ease all 0.4s;
+	margin-left: 0rem;
+}
+
+.t1 {
+	background-image: url(../images/give-01.svg);
+	margin-top: 0rem;
+}
+
+.t2 {
+	margin-top: 9rem;
+	background-image: url(../images/get-01.svg);
+}
+
+.vid {
+	display: block;
+	position: absolute;
+	width: inherit;
+	height: 9rem;
+	margin-top: 1.5rem;
+	opacity: 1;
+	background-image: url(../images/wrote.gif);
+	background-size: 90% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.links {
+	display: block;
+	position: absolute;
+	width: 15rem;
+	right: 0;
+	margin-right: 4%;
+	height: 4.6rem;
+}
+
+.about {
+	position: absolute;
+	display: block;
+	right: 0;
+	bottom: 0;
+	font-family: sans-serif;
+	color: #222222;
+	font-size: 0.9rem;
+	font-weight: 600;
+	cursor: pointer;
+	border-style: none;
+	border-color: red;
+	border-width: 0px 0px 1px 0px;
+	font-family: circular;
+}
+
+.about:hover {
+	border-style: solid;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------- Main content -------------------------- */
+
+
+.main {
+	display: block;
+	width: 98vw;
+	height: 100vh;
+	margin-left: 1vw;
+	opacity: 1;
+	z-index: 50;
+}
+
+.grid {
+	display: block;
+	position: absolute;
+	width: inherit;
+	margin-top: 27rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.g {
+	/* change width with media queries for float*/
+	display: inline-block;
+	float: none;
+	width: 27rem;
+	height: 11rem;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 2px;
+	text-align: center;
+	overflow: visible;
+	cursor: pointer;
+}
+
+.sleeve {
+	display: inline-block;
+	width: 100%;
+	height: inherit;
+	background-image: url(../images/sleeve.png);
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: ease all 0.2s;
+	cursor: pointer;
+}
+
+.sleeve:hover {
+	/*background-size: 105% 105%;*/
+	width: 110%;
+	height: 110%;
+	margin-left: -5%;
+	margin-top: -5%;
+}
+
+
+.sleeve-big {
+	position: absolute;
+	display: block;
+	width: 27rem;
+	height: 11rem;
+	background-image: url(../images/sleeve.png);
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	transition: ease all 1.2s;
+	margin-top: 0vw;
+}
+
+/*
+.sb {
+	position: fixed;
+	width: 110vw;
+	height: 48vw;
+	top: 0;
+	z-index: 1000;
+	left: -6vw;
+	margin-top: 0vh;
+}
+*/
+
+.sb {
+	position: fixed;
+	display: block;
+	width: 100rem;
+	height: 40rem;
+	background-image: url(../images/sleeve.png);
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	transition: ease all 1.2s;
+	z-index: 1000;
+	margin-top: -20vw;
+}
+
+
+
+
+
+
+
+
+
+.v {
+	display: block;
+	width: 400px;
+	height: 200px;
+	background-color: yellow;
+	z-index: 2000;
+}
+
+
+
+.sleeve-container {
+	display: block;
+	position: fixed;
+	width: 94vw;
+	margin-left: 3vw;
+	margin-top: 3vw;
+	height: 98vh;
+	z-index: 2000;
+	display: block;
+	opacity: 1;
+	background-color: rgba(255,255,255,0.85);
+	display: none;
+	transition: ease all 0.4s;
+}
+
+.sleeve-back {
+	display: block;
+	position: absolute;
+	width: 110%;
+	height: 110%;
+	margin-top: -5%;
+	margin-left: -5%;
+	pointer-events: auto;
+}
+
+
+.x {
+	display: block;
+	position: absolute;
+	width: 2.75rem;
+	height: 2.75rem;
+	left: 0;
+	top: 0;
+	background-image: url(../images/close.svg);
+	background-size: 100% 100%;
+	pointer-events: auto;
+	cursor: pointer;
+}
+
+.slc {
+	display: block;
+	position: absolute;
+	width: inherit;
+	height: 38vw;
+	margin-top: 8rem;
+	margin-top: -10rem;
+	transition: ease margin-top 0.4s, ease opacity 0.4s;
+	opacity: 0;
+	-webkit-clip-path: polygon(7.875% 86.9969040247678%,10.875% 85.13931888544892%,15.5% 82.35294117647058%,21.375% 79.56656346749226%,27.750000000000004% 77.39938080495357%,35.5% 75.23219814241486%,43.875% 74.30340557275542%,53% 73.9938080495356%,60% 74.30340557275542%,67.375% 75.54179566563467%,74.125% 77.70897832817337%,80.875% 81.11455108359134%,87% 84.21052631578947%,94.875% 82.35294117647058%,98.875% 44.27244582043344%,92.25% 32.19814241486068%,84.125% 26.93498452012384%,76.625% 23.52941176470588%,68.5% 21.36222910216718%,61.25000000000001% 20.123839009287924%,54.75% 19.5046439628483%,46.625% 19.5046439628483%,38.25% 20.43343653250774%,31.25% 21.981424148606813%,24.875% 23.8390092879257%,17.125% 26.93498452012384%,9% 31.269349845201237%,2.125% 35.60371517027864%);
+	clip-path: polygon(7.875% 86.9969040247678%,10.875% 85.13931888544892%,15.5% 82.35294117647058%,21.375% 79.56656346749226%,27.750000000000004% 77.39938080495357%,35.5% 75.23219814241486%,43.875% 74.30340557275542%,53% 73.9938080495356%,60% 74.30340557275542%,67.375% 75.54179566563467%,74.125% 77.70897832817337%,80.875% 81.11455108359134%,87% 84.21052631578947%,94.875% 82.35294117647058%,98.875% 44.27244582043344%,92.25% 32.19814241486068%,84.125% 26.93498452012384%,76.625% 23.52941176470588%,68.5% 21.36222910216718%,61.25000000000001% 20.123839009287924%,54.75% 19.5046439628483%,46.625% 19.5046439628483%,38.25% 20.43343653250774%,31.25% 21.981424148606813%,24.875% 23.8390092879257%,17.125% 26.93498452012384%,9% 31.269349845201237%,2.125% 35.60371517027864%);
+	pointer-events: none;
+}
+
+
+.s {
+	display: block;
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	background-image: url(../images/scans/slv_0000_S36.png);
+	background-size: 100% 100%;
+	pointer-events: all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
