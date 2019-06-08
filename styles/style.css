@@ -276,6 +276,7 @@ h2 {
 	margin-left: 25%;
 	margin-top: 22rem;
 	font-family: 'Bitter', serif;
+	text-align: center;
 }
 
 .in {
@@ -284,7 +285,6 @@ h2 {
 	margin-left: 0rem;
 	line-height: 1.8rem;
 	font-size: 1.1rem;
-	font-family: 'Bitter', serif;
 	font-family: 'Roboto Slab', serif;
 	color: #877666;
 }
