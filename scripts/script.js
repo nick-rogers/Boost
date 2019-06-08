@@ -52,7 +52,7 @@ var homehover = false;
 
 	function larger(){
 
-		$('.n').css('height', '18rem');
+		$('.n').css('height', '10rem');
 
 
 		$('.l').css('height', '12rem');
@@ -77,10 +77,7 @@ var homehover = false;
 
 
 $('.sleeve-big').click(function(){
-
-	console.log('clicked');
 	$(this).addClass('sb');
-
 });
 
 

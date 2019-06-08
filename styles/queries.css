@@ -1,0 +1,88 @@
+/* iPhone 7+ screen size*/
+
+@media only screen and (max-width: 667px)
+and (min-device-width: 375px) 
+and (-webkit-min-device-pixel-ratio: 2){
+
+body {
+}
+
+.blurb {
+	width: 320px;
+	margin-left: -28%;
+	margin-top: 0px;
+}
+
+.grid {
+	margin-top: 330px;
+}
+
+.hidden-nav {
+	display: block;
+}
+
+.normal-nav {
+	display: none;
+}
+
+.links {
+	margin-top: 8rem;
+	position: static;
+	display: inline-block;
+}
+
+.about {
+	position: static;
+}
+
+
+.n {
+	height: 10rem;
+}
+
+
+
+.intro {
+	margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1440px)
+and (min-device-width: 668px) 
+and (-webkit-min-device-pixel-ratio: 2){
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
