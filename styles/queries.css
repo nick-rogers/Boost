@@ -9,7 +9,7 @@ body {
 
 .blurb {
 	width: 320px;
-	margin-left: -40%;
+	margin-left: -38%;
 	margin-top: 0px;
 }
 
@@ -47,37 +47,31 @@ body {
 }
 
 
+.sleeve {
+	background-size: 90% 85%;
+}
 
 
 
 
+
+.slc {
+	transform: rotate(-90deg) scale(1.5);
+}
+
+.sleeve-container {
+	padding-top: 12rem;
+}
+
+.x {
+	top: 2rem;
+	left: 1rem;
+}
 
 
 
 
 }
-
-
-@media only screen and (max-width: 1440px)
-and (min-device-width: 668px) 
-and (-webkit-min-device-pixel-ratio: 2){
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
 
 
 
