@@ -1,18 +1,10 @@
-@font-face {
-  font-family: circular;
-  src: url(../fonts/circular.otf);
-}
-
-@import url('https://fonts.googleapis.com/css?family=Bitter');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700,700i&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Lato:700,700i&display=swap');
 
 
 body {
 	margin: 0;
 	background-color: white;
-	/*background-image: url(../images/Home-Screen.png);*/
 	background-size: 100% 100%;
 	background-position: center;
 	font-size: 20px;
@@ -36,8 +28,7 @@ h2 {
 	font-family: sans-serif;
 	font-size: 40px;
 	text-align: left;
-	font-family: 'Josefin Sans', sans-serif;
-	font-family: circular;
+	font-family: 'Lato', sans-serif;
 	color: #2d1809;
 }
 
@@ -251,7 +242,7 @@ h2 {
 	font-weight: 600;
 	cursor: pointer;
 	text-decoration: none;
-	font-family: circular;
+	font-family: 'Lato', sans-serif;
 	color: #877666;
 	z-index: 2000;
 }
@@ -559,7 +550,6 @@ li {
 	display: inline-block;
 	float: right;
 	width: 450px;
-	background-color: red;
 	height: 800px;
 	top: 0;
 }
@@ -588,7 +578,6 @@ li {
 	display: inline-block;
 	width: 900px;
 	height: inherit;
-	background-color: red;
 	background-size: 100% 100%;
 	background-position: center;
 }
@@ -647,7 +636,6 @@ li {
 	display: block;
 	width: inherit;
 	height: 400px;
-	background-color: red;
 	background-position: center;
 	background-size: 100% 100%;
 }
@@ -709,7 +697,6 @@ li {
 	width: 450px;
 	height: inherit;
 	float: right;
-	background-color: grey;
 	background-size: 100% 100%;
 }
 
@@ -770,7 +757,7 @@ li {
 	font-weight: 600;
 	cursor: pointer;
 	text-decoration: none;
-	font-family: circular;
+	font-family: 'Lato', sans-serif;
 	color: #877666;
 }
 
