@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 667px)
 and (min-device-width: 375px) 
-and (-webkit-min-device-pixel-ratio: 2){
+and (-webkit-min-device-pixel-ratio: 2) and (orientation:portrait){
 
 body {
 }
@@ -60,7 +60,7 @@ body {
 }
 
 .sleeve-container {
-	padding-top: 12rem;
+	padding-top: 9rem;
 }
 
 .x {
@@ -75,6 +75,19 @@ body {
 
 
 
+
+
+
+@media only screen and (max-width: 667px)
+and (min-device-width: 375px) 
+and (-webkit-min-device-pixel-ratio: 2) and (orientation:landscape){
+
+.slc {
+	transform: rotate(0deg) scale(1.2);
+}
+
+
+}
 
 
 
