@@ -8,22 +8,23 @@ ScrollReveal().reveal('.g', {delay: 50});
 
 
 
-console.log('linked');
-
-var homehover = false;
-
-	$(window).scroll(function(){
-
-		console.log('scrolled');
-
+	function checkWindow(){
 		if($(window).scrollTop() > 70){
-			homehover = true;
-			smaller();
+				homehover = true;
+				smaller();
 		}else if($(window).scrollTop() < 70){
 			homehover = false;
 			larger();
 		}
+	}
 
+	checkWindow();
+
+
+	var homehover = false;
+
+	$(window).scroll(function(){
+		checkWindow();
 	});
 
 
@@ -37,7 +38,6 @@ var homehover = false;
 
 		$('.title').css('height', '8rem');
 		$('.title').css('width', '10rem');
-		//$('.title').css('margin-left', '0.6rem');
 
 		$('.t').css('height', '3rem');
 		$('.t').css('width', '9rem');
@@ -63,7 +63,6 @@ var homehover = false;
 
 		$('.t').css('height', '3rem');
 		$('.t').css('width', 'inherit');
-		//$('.t').css('margin-left', '0.5rem');
 
 		$('.t1').css('margin-top', '0rem');
 		$('.t2').css('margin-top', '9rem');
@@ -76,10 +75,10 @@ var homehover = false;
 
 
 
+
 $('.sleeve-big').click(function(){
 	$(this).addClass('sb');
 });
-
 
 
 
@@ -94,7 +93,7 @@ $('.x').click(function(){
 
 	$('.sleeve-container').css('opacity', '0');
 	$('.slc').css('opacity', '0');
-	$('.slc').css('margin-top', '-2rem');
+	$('.slc').css('transform', 'scale(0.5)');
 
 	setTimeout(function(){
 		$('.sleeve-container').css('display', 'none');
@@ -112,7 +111,7 @@ $('.sleeve-back').click(function(){
 
 		$('.sleeve-container').css('opacity', '0');
 		$('.slc').css('opacity', '0');
-		$('.slc').css('margin-top', '-2rem');
+		$('.slc').css('transform', 'scale(0.5)');
 
 		setTimeout(function(){
 			$('.sleeve-container').css('display', 'none');
@@ -149,12 +148,10 @@ $('.sleeve').click(function(){
 	$('.sleeve-container').css('display', 'block');
 
 	setTimeout(function(){
-		$('.slc').css('margin-top', '5rem');
 		$('.slc').css('opacity', '1');
+		$('.slc').css('transform', 'scale(1)');
 		$('.sleeve-container').css('opacity', '1');
 	}, 100);
-
-
 });
 
 
